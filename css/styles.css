@@ -1,0 +1,280 @@
+body{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    align-items : center;
+    justify-content : center;  
+    background-color: #43345d;
+    min-height : 800px;
+}
+
+
+/*------------------------- Navbar Styles--------------------------- */
+.navbar-brand , .nav-link{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-toggler-icon{
+    background-image: url('images/navbrand.png');
+    padding: 1.5rem; 
+}
+
+.navbar-toggler{
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 4.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    border: 1; 
+}
+
+.navbar{
+    width: 100%;
+    list-style-type: none;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.nav-link{
+    width: -30%;
+    margin: 2rem 2rem 0rem 0rem;
+    text-align: right;
+    font-family: "Iceberg";
+    font-size: 2rem;
+}
+
+
+
+/*-------------------------------- Name Styles -----------------------------*/
+
+
+#myName{
+    color: #98e8cd;
+}
+.name{
+    font-family: "Iceberg";
+    color: white;   
+}
+h1{
+    font-size: 7rem;
+}
+h2{
+    font-size: 4rem;
+}
+
+.describtion{
+    margin: 4rem;
+}
+
+/*------------------------------- Work with me button--------------------------- */
+
+#work-wth-me{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 6rem;
+    margin-left: 4.5rem;
+    }
+.fa{
+    margin-left: 1rem;
+}
+
+/*------------------------------- Overview--------------------------- */
+
+.Overview{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20rem;
+}
+
+.about{
+    margin-left: 4.5rem;
+    color: #98e8cd;
+    font-family: "Iceberg";
+}
+.breif{
+    font-size: 2rem;
+    margin: 2rem 4.5rem 2rem 4.5rem;
+    color: white;
+    font-family: "SplineSans";
+}
+
+.image-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+}
+.devImg{
+    align-self: center;
+    width: 60%;
+    /* height: 600px; */
+    margin: 2rem 4.5rem 2rem 4.5rem;
+}
+.credentials{
+    text-align:center;
+    padding: 300px 0px 300px 0px
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+    margin-top: 2rem;
+   
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 18rem;
+    align-items: end;
+    margin-right:3rem ;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+#edu{
+    margin-bottom: 13rem;
+}
+.category{
+    font-family: "Iceberg";
+    font-size: 3rem;
+    color: #98e8cd;
+    margin: 0;
+}
+
+
+.details{
+    font-family: "Iceberg";
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+
+* { 
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-familly : "Poppins", sans-serif;
+  }
+  
+  
+  
+  .container {
+    position : relative;
+    width : 1100px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 30px;  
+  }
+  
+  .container .card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #fff;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+    background-color: white;
+    
+  }
+  .container .card:hover {
+    height : 320px;    
+  }
+  
+  
+  .container .card .image {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.8);
+    z-index : 1;
+    border-radius: 100%;
+  }
+  
+  .container .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .container .card .content {
+    position : relative;
+    top : -140px;
+    padding : 50px;
+    color : #111;
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .container .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+     text-align: center;
+     align-items: center;
+    
+  }
+
+  .Porjectname{
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: "Iceberg";
+    color: black;
+  }
+  .work{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .Projects{
+    padding: 1rem;
+    color: #98e8cd;
+    font-family: "Iceberg";
+    text-align: center;
+  }
+  .viewProject{
+    padding-left:18px;
+    max-width: 100%;
+
+  }
+  .Social{
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+  }
+.cont{
+    font-family: "Iceberg";
+    color: #98e8cd;
+    padding-bottom:30px ;
+}
+  
+  
