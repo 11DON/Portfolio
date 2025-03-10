@@ -5,6 +5,7 @@ body{
     justify-content : center;  
     background-color: #43345d;
     min-height : 800px;
+    padding: 20px;
 }
 
 
@@ -186,11 +187,10 @@ h2{
     background-color : #fff;
     margin : 30px 10px;
     padding : 20px 15px;
-    
-    display : flex;
+    /* display : flex; */
     flex-direction : column;
     box-shadow : 0 5px 20px rgba(0,0,0,0.2);
-    transition : 0.3s ease-in-out;
+    transition : all 0.3s ease-in-out;
     border-radius : 15px;
     background-color: white;
     
@@ -202,8 +202,8 @@ h2{
   
   .container .card .image {
     position : relative;
-    width : 260px;
-    height : 260px;
+    max-width : 260px;
+    max-height : 260px;
     top : -40%;
     left: 8px;
     box-shadow : 0 5px 20px rgba(0,0,0,0.8);
@@ -261,9 +261,16 @@ h2{
     font-family: "Iceberg";
     text-align: center;
   }
+  .content{
+    align-items: center;
+    
+  }
   .viewProject{
     padding-left:18px;
-    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    flex-grow: 1;
 
   }
   .Social{
@@ -275,6 +282,120 @@ h2{
     font-family: "Iceberg";
     color: #98e8cd;
     padding-bottom:30px ;
+}
+
+
+   /* Responsive Design */
+   @media (max-width: 768px) {
+    body{
+        text-align: center;
+        align-items: center;
+    }
+    .name {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        width: 90%;
+        font-size: 1rem;
+        
+    }
+
+    .breif {
+        font-size: 0.95rem;
+        text-align: center;
+        margin-right: 1 rem;
+    }
+    .about{
+        text-align: center;
+        margin-right: 4.5rem;
+        font-size: 2rem;
+    }
+    .credentials{
+        text-align: center;
+    }
+    .category{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .details{
+        font-size: 1rem;
+        text-align: center;
+        width: 70%;
+    }
+
+    .contact_me{
+        width: 100%;
+        align-items: center;
+    }
+    #work-wth-me{
+        align-items: center;
+        width: 50%;
+        margin: auto;
+    }
+    .navbar-toggler{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin: auto;
+    }
+    .work .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Projects{
+        font-size: 2rem;
+    }
+    .card{
+        text-align: center;
+        align-items: center;
+        max-height: 80%;
+        overflow: visible;
+    }
+    .card:hover{
+        max-height: 190px;
+    }
+     .container{
+       min-width: 75%;
+       height: 200px;
+    }
+    .content{
+        align-items: center;
+        width: 200px;
+        height: 200px;
+    }
+      .Porjectname{
+        padding-top: 60px;
+        font-size: 20px;
+      }
+      .view{
+        width:90px;
+        font-size: 12px;
+      }
+      .viewProject{
+        padding: 0;
+        text-align: center;
+        align-items: center;
+      }
+      
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.95rem;
+    }
+
+    .breif {
+        font-size: 0.9rem;
+        text-align: center;
+    }
 }
   
   
